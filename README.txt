@@ -1,11 +1,11 @@
-This is a readme.
+Group 7
 
 Team Name: Push Fitness 
 
 Team Members:
     Filip Popadich - 300434699
     Martin Kendjo Dongmo 
-    Maryam Lim-Baig 
+    Maryam Lim-Baig - 300399240
     Saad Mehamdi 
     Sama Al-Akashi 
     Sheila Nouboum Sieyoji 
