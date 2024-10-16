@@ -3,7 +3,7 @@ This is a readme.
 Team Name: Push Fitness 
 
 Team Members:
-    Filip Popadich 
+    Filip Popadich - 300434699
     Martin Kendjo Dongmo 
     Maryam Lim-Baig 
     Saad Mehamdi 
