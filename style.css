@@ -1,1 +1,4 @@
-body {}
+/* Make the navbar inline*/
+nav li {
+    display: inline;
+}
