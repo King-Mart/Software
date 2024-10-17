@@ -26,4 +26,5 @@ Introducing Push, the cutting-edge fitness tracking app that enhances your worko
 - add about us
 - add faq
 - make the website dynamic (server side activity)
+- use firefox for better css editing [text](https://www.youtube.com/watch?v=Qhaz36TZG5Y&ab_channel=Fireship)
 -->
