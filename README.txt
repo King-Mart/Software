@@ -4,11 +4,11 @@ Team Name: Push Fitness
 
 Team Members:
     Filip Popadich - 300434699
-    Martin Kendjo Dongmo 
+    Martin Kendjo Dongmo - 300403489
     Maryam Lim-Baig - 300399240
-    Saad Mehamdi 
-    Sama Al-Akashi 
-    Sheila Nouboum Sieyoji 
+    Saad Mehamdi - 
+    Sama Al-Akashi - 
+    Sheila Nouboum Sieyoji - 
 
 Product Name: Push 
 
