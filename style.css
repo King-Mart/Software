@@ -28,6 +28,10 @@
     background-color: #111;
 }
 
+.top-navbar .active:hover {
+    background-color: #04AA6D;
+}
+
 .top-navbar .active {
     background-color: #04AA6D;
 }
