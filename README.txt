@@ -6,7 +6,7 @@ Group 7
 **Team Members:**
     - **Filip Popadich** - 300434699
     - **Martin K. Dongmo** - 300403489
-    - **Maryam Lim-Baig** - 300399240
+    - **Maryam Lim-Baig**
     - **Saad Mehamdi** - 
     - **Sama Al-Akashi** - 
     - **Sheila Nouboum Sieyoji** - 
