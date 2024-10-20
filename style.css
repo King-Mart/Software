@@ -49,3 +49,8 @@ body {
     margin: 0;
     background-color: aqua;
 }
+
+footer {
+    background-color: black;
+    color: white;
+}
