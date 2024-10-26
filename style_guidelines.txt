@@ -1,0 +1,9 @@
+The guideline specifies a color theme.
+Gold: goldenrod #DAA520	
+Red: barnred 780000
+White: white #FFFFFF
+
+
+The guideline talks about typography.
+The guideline is reflected in the website design.
+The guideline is reasonably detailed.
