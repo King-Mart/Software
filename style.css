@@ -378,7 +378,7 @@ body.pricing {
 }
 
 header.pricing {
-  color: hsl(143, 61%, 48%);
+  color: hsl(241, 83%, 30%);
   margin: 2.3rem 0;
   display: flex;
   flex-direction: column;
@@ -403,7 +403,7 @@ header.pricing {
 }
 
 .sub {
-  background: linear-gradient(135deg, rgba(163, 168, 240, 1) 0%, rgb(32, 210, 109) 100%);
+  background: linear-gradient(135deg, rgba(163, 168, 240, 1) 0%, rgb(29, 9, 209) 100%);
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -428,6 +428,10 @@ header.pricing {
   background: #fff;
   color: hsl(233, 13%, 49%);
   border-radius: 0.8em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .plans {
@@ -438,8 +442,15 @@ header.pricing {
 
 }
 
+.pg {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .plans .advanced {
-  background: linear-gradient(135deg, rgb(61, 90, 33) 0%, rgb(200, 229, 36) 100%);
+  background: linear-gradient(135deg, rgb(61, 90, 33) 0%, rgb(64, 50, 226) 100%);
   color: #fff;
   display: flex;
   align-items: center;
@@ -453,15 +464,24 @@ ul li.price {
   font-size: 3rem;
   color: hsl(232, 13%, 33%);
   padding-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
 
 }
 
+
+
 .basic {
   box-shadow: -5px 5px 15px 1px rgba(0, 0, 0, 0.1);
+  align-items: center;
 }
 
 .pl.advanced .price {
   color: #fff;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn {
@@ -472,7 +492,7 @@ ul li.price {
   justify-content: center;
   align-items: center;
   border-radius: 4px;
-  background: linear-gradient(135deg, rgb(84, 132, 191)0%, rgb(31, 211, 79)100%);
+  background: linear-gradient(135deg, rgb(84, 132, 191)0%, rgb(48, 14, 217)100%);
   color: #fff;
   outline: none;
   border: 0;
@@ -482,7 +502,7 @@ ul li.price {
 
 .advanced-btn {
   background: #fff;
-  color: hsl(67, 58%, 46%);
+  color: hsl(243, 60%, 46%);
 
 }
 
@@ -572,6 +592,7 @@ ul li.price {
   .plans {
     display: flex;
     flex-wrap: wrap;
+
 
   }
 
