@@ -4,52 +4,105 @@
 
 
 /* Use a flexbox to dynamically reposition items*/
-.top-navbar ul {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  flex-direction: row;
-  list-style-type: none;
-
-
+#top-navbar {
+  background-color: navy;
+  position: fixed;
+  top: -60px;
+  width: 100%;
+  transition: top 0.5s;
 }
 
+
 /* Change the color of the links*/
-.top-navbar a {
-  color: white;
+#top-navbar a {
+  float: left;
   display: block;
-  padding: 14px 24px;
+  color: white;
   text-align: center;
+  padding: 20px;
   text-decoration: none;
-  height: 100%;
+  transition: 0.5s
   /* Needed to fix the active element appearing smaller than usual*/
 }
 
-.top-navbar a:hover {
-  background-color: #111;
+#top-navbar a:hover {
+  font-weight: bold;
 }
 
-.top-navbar .active:hover {
+#top-navbar .active:hover {
   background-color: #04AA6D;
 }
 
-.top-navbar .active {
+#top-navbar .active {
   background-color: #04AA6D;
 }
 
-/* Change the background color of the navbar*/
-.top-navbar {
-  background-color: #333;
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: 100%;
+#review-stars {
+  margin: auto;
+  display: block;
+}
+
+.review-header {
+  text-align: center;
+  color: white;
+}
+
+.reviews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 1000px;
+  margin:auto;
+}
+
+.text-block {
+  color: white;
+  display: none; /* Hide all text blocks initially */
+  text-align: center;
+  font-size: 15px;
+  margin: 20px 20px;
+  flex: 1; /* Allow text block to grow */
+}
+
+.dot-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dot {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+  border-radius: 50%;
+  background-color: lightgray;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.dot:hover {
+  background-color: #333333;
+}
+
+.active {
+  background-color: #333333;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 
 body {
   margin: 0;
-  background-color: aqua;
+  background-color: navy;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* FOOTER*/
@@ -132,7 +185,7 @@ body {
   line-height: 55px;
 }
 
-HEAD .titlebox {
+.titlebox {
   /* Flex box is used in order to ensure dynamic resizing. */
   display: flex;
   /* The title is centered horizontally.  and each of its component are on top of each other*/

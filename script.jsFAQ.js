@@ -1,3 +1,4 @@
+// Javascript code to interactively display and hide questions
 document.querySelectorAll('.faq-question').forEach(question => {
     question.addEventListener('click', () => {
       const faqItem = question.parentElement;
