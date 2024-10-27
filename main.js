@@ -17,3 +17,30 @@ function change_name(){
     active[0].innerHTML = "Hello";
 }
 
+
+let currentIndex = 0;
+const textBlocks = document.querySelectorAll('.text-block');
+
+// Initialize the first text block and the circles
+function init() {
+    textBlocks[currentIndex].style.display = 'block';
+    updateCircles();
+}
+
+function setCurrentSlide(index) {
+    textBlocks[currentIndex].style.display = 'none';
+    currentIndex = index;
+    textBlocks[currentIndex].style.display = 'block';
+    updateCircles();
+}
+
+function updateCircles() {
+    const dots = document.querySelectorAll('.dot');
+    dots.forEach((dot, index) => {
+        dot.classList.toggle('active', index === currentIndex);
+    });
+}
+
+init(); // Call the init function to start the slider
+
+
