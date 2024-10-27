@@ -80,18 +80,18 @@ body {
 
 .contact-form button[type="submit"]:hover {
   background-color: var(--primary-color);
-  <<<<<<< HEAD=======
+
 }
 
 /*Home page title*/
 
 .title {
-  <<<<<<< HEAD justify-content: space-between;
+  justify-content: space-between;
   width: 570px;
   /* Use mozilla firefox's flex tools to understand the layout better */
   display: flex;
   flex-direction: column;
-  =======justify-content: space-between;
+  justify-content: space-between;
   width: 570px;
   /* Use mozilla firefox's flex tools to understand the layout better */
   display: flex;
@@ -142,7 +142,7 @@ HEAD .titlebox {
   margin-top: 100px;
   margin-bottom: 100px;
 
-  =======.titlebox {
+  .titlebox {
     /* Flex box is used in order to ensure dynamic resizing. */
     display: flex;
     /* The title is centered horizontally.  and each of its component are on top of each other*/
@@ -151,7 +151,7 @@ HEAD .titlebox {
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    >>>>>>>a07fcfbac59eb9c46c8eebbce615ed4b03110fa4
+
   }
 
   #push {
@@ -161,7 +161,7 @@ HEAD .titlebox {
 
   #push:hover {
     color: orangered;
-    >>>>>>>261941a09680d733585aafcaa0bcdc48e0930b3c
+
   }
 
   body.pricing {
