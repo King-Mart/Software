@@ -86,11 +86,21 @@ body {
 /*Home page title*/
 
 .title {
+<<<<<<< HEAD
   justify-content: space-between;
   width: 570px;
   /* Use mozilla firefox's flex tools to understand the layout better */
   display: flex;
   flex-direction: column;
+=======
+    justify-content: space-between;
+    width: 570px;
+    /* Use mozilla firefox's flex tools to understand the layout better */
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 0px;
+>>>>>>> a07fcfbac59eb9c46c8eebbce615ed4b03110fa4
 }
 
 .titleMultyTypographyBox {
@@ -123,6 +133,7 @@ body {
   font-weight: 200;
   line-height: 55px;
 }
+<<<<<<< HEAD
 
 .titlebox {
   /* Flex box is used in order to ensure dynamic resizing. */
@@ -133,6 +144,17 @@ body {
   justify-content: center;
   margin-top: 100px;
   margin-bottom: 100px;
+=======
+.titlebox{
+    /* Flex box is used in order to ensure dynamic resizing. */
+    display: flex;
+    /* The title is centered horizontally.  and each of its component are on top of each other*/
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+>>>>>>> a07fcfbac59eb9c46c8eebbce615ed4b03110fa4
 }
 
 #push {
