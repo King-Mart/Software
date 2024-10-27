@@ -1,9 +1,51 @@
-The guideline specifies a color theme.
-Gold: goldenrod #DAA520	
-Red: barnred 780000
-White: white #FFFFFF
-
-
-The guideline talks about typography.
+MUST INCLUDE:
 The guideline is reflected in the website design.
 The guideline is reasonably detailed.
+
+-----------------------------------------------------------------------------------
+
+Overall colour theme:
+    Gold = goldenrod #DAA520	
+    Red = barnred 780000
+    White = white #FFFFFF
+    Black 
+
+Header:
+    Background colour: black
+    When page selected, background colour of that page button is barnred and text colour is black
+    Text colour of unselected pages: white
+    Font style: bold, capitalized
+    Logo image included that when clicked, will lead to the home page
+
+Footer:
+    background colour: black
+    font colour: white
+
+Images:
+    Background images:
+        Background images will be darkened a bit to make text visible
+        Will take up the entire width of that page, not just the size of the image itself. If it doesn't fit it will be adjusted to fit.
+        Images will be found through online websites that allow for use and does not have any watermarks.
+        Alternative text will be provided called: "background-xxxxx" where xxxxx is a short summary of what the image shows
+    Logo:
+        Logo will be put in the about us page
+        Logo will be put at the top in the header that when clicked, it will lead to the home page
+    Demos:
+        Screenshots and mockups of our product available on the about us and features page
+
+Special characters:
+    Reviews:
+        5-stars will be included in the gold colour for each reviews
+        Reviews will include quotation marks that are larger than the text to grab attention
+
+Text colour:
+    Regular text on pages = black 
+    Text on background images: white, gold, or red
+
+Fonts:
+    Font name: Poppins
+    Font styles:
+        Bolded in headings
+        Regular text will have no style (no bold, underline, or italics)
+        Links will be underlines
+        Important information to be emphasized will be italicized or underlined    
