@@ -1,24 +1,43 @@
+NOTES:
+    Follow thses guidlines
+    Let everyone know if something is to be changed, updated, or removed so that the changes can be applied to the rest of the website
+    For reference as to how the website should look like for now, refer to the FAQ page
+
+
+----------------------------------------------------------------------------------
+
 MUST INCLUDE:
 The guideline is reflected in the website design.
 The guideline is reasonably detailed.
 
 -----------------------------------------------------------------------------------
 
+
 Overall colour theme:
-    Gold = goldenrod #DAA520	
+    Gold = goldenrod #DAA520 
+        -----> not using this right now in guideline, but can use if you want to wherever you see fit and then add it to the guideline where it was used
     Red = barnred 780000
     White = white #FFFFFF
-    Black 
+    Black
+    Blue = navy
+    Background colours: 
+        white = whitesmoke
+        white
+        blue = navy
+
+Layout:
+    Headers and content mostly centered
+    May have a few things side by side
 
 Header:
-    Background colour: black
-    When page selected, background colour of that page button is barnred and text colour is black
-    Text colour of unselected pages: white
+    Background colour: navy
+    Text colour: white
+    When page selected, font style of the page is underlined with white colour
     Font style: bold, capitalized
     Logo image included that when clicked, will lead to the home page
 
 Footer:
-    background colour: black
+    background colour: navy
     font colour: white
 
 Images:
