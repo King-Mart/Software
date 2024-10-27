@@ -1,13 +1,31 @@
 /*Please write a comment explaining what you do, it is confusing and longer to make modifications otherwise. Thank you*/
+/* General css */
+ul {
+  margin: 2.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
 
-/* Make the navbar inline*/
+ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem 0;
 
+}
+
+
+
+
+/* Top Nav Bar*/
 
 /* Use a flexbox to dynamically reposition items*/
 .top-navbar {
   background-color: navy;
   position: sticky;
-  top: -60px;
   width: 100%;
   transition: top 0.5s;
 }
@@ -21,13 +39,17 @@
   padding: 0;
 }
 
+.top-navbar ul li {
+  width: 200px;
+  padding: 0px;
+}
+
 /* Change the color of the links*/
 .top-navbar a {
   float: left;
   display: block;
   color: white;
   text-align: center;
-  padding-left: 20px;
   padding: 20px;
   text-decoration: none;
   transition: 0.5s
@@ -46,6 +68,12 @@
 .top-navbar .active {
   background-color: #04AA6D;
 }
+
+
+
+
+
+
 /*Home page title*/
 
 .title {
@@ -127,6 +155,11 @@
     color: orangered;
 
   }
+
+
+
+
+  /* Review section */
 
 #review-stars {
   margin: auto;
@@ -392,22 +425,7 @@ header.pricing {
   z-index: 0;
 }
 
-ul {
-  margin: 2.6rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
 
-ul li {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding: 1rem 0;
-
-}
 
 ul li.price {
   font-size: 3rem;
