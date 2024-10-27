@@ -220,17 +220,17 @@ header.pricing {
   border-radius: 50%;
 }
 
-.checkbox:checked+sub {
+.checkbox:checked+.sub {
   justify-content: flex-end;
 }
 
 .pl {
   background: #fff;
   color: hsl(139, 44%, 45%);
-  border-radius: 0.8 rem;
+  border-radius: 10%;
 }
 
-.plans .pl.active {
+.plans .pl.advanced {
   background: linear-gradient(135deg, rgb(88, 92, 180) 0%, rgb(70, 174, 5) 100%);
   color: #fff;
   display: flex;
@@ -245,4 +245,28 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+}
+
+ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem 0;
+
+}
+
+ul li.price {
+  font-size: 3rem;
+  color: hsl(232, 13%, 33%);
+  padding-bottom: 2rem;
+
+}
+
+.basic {
+  box-shadow: -5px 5px 15px 1px rgba(0, 0, 0, 0.1);
+}
+
+.pl.advanced .price {
+  color: #fff;
 }
