@@ -178,7 +178,7 @@ body.pricing {
 }
 
 header.pricing {
-  color: hsl(233, 13%, 49%);
+  color: hsl(143, 61%, 48%);
   margin: 3.3rem 0;
   display: flex;
   flex-direction: column;
@@ -203,7 +203,7 @@ header.pricing {
 }
 
 .sub {
-  background: linear-gradient(135deg, rgba(163, 168, 240, 1) 0%, rgba(105, 111, 221, 1) 100%);
+  background: linear-gradient(135deg, rgba(163, 168, 240, 1) 0%, rgb(32, 210, 109) 100%);
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -218,4 +218,31 @@ header.pricing {
   height: 1.4rem;
   width: 1.4rem;
   border-radius: 50%;
+}
+
+.checkbox:checked+sub {
+  justify-content: flex-end;
+}
+
+.pl {
+  background: #fff;
+  color: hsl(139, 44%, 45%);
+  border-radius: 0.8 rem;
+}
+
+.plans .pl.active {
+  background: linear-gradient(135deg, rgb(88, 92, 180) 0%, rgb(70, 174, 5) 100%);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+ul {
+  margin: 2.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
