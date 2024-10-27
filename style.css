@@ -148,7 +148,7 @@ body {
 body.pricing {
   background: #f7f7ff;
   font-family: 'Montserrat', 'san-serif';
-  width: 80%;
+  width: 100%;
   max-width: 1440px;
   margin: 0, auto;
   display: flex;
