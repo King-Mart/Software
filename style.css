@@ -1,47 +1,48 @@
 .top-navbar ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    flex-direction: row;
-    list-style-type: none;
- 
+  display: flex;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  flex-direction: row;
+  list-style-type: none;
+
 
 }
 
 
 .top-navbar a {
-    color: white;
-    display: block;
-    padding: 14px 24px;
-    text-align: center;
-    text-decoration: none;
-    height: 100%; /* Needed to fix the active element appearing smaller than usual*/
+  color: white;
+  display: block;
+  padding: 14px 24px;
+  text-align: center;
+  text-decoration: none;
+  height: 100%;
+  /* Needed to fix the active element appearing smaller than usual*/
 }
 
 .top-navbar a:hover {
-    background-color: #111;
+  background-color: #111;
 }
 
 .top-navbar .active:hover {
-    background-color: #04AA6D;
+  background-color: #04AA6D;
 }
 
 .top-navbar .active {
-    background-color: #04AA6D;
+  background-color: #04AA6D;
 }
 
 .top-navbar {
-    background-color: #333;
-    position: sticky;
-    top: 0;
-    left: 0;
-    width: 100%;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 body {
-    margin: 0;
-    background-color: aqua;
+  margin: 0;
+  background-color: aqua;
 }
 
 .contact-form input,
