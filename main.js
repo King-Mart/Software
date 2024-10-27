@@ -17,11 +17,11 @@ function change_name(){
     active[0].innerHTML = "Hello";
 }
 
-
+//create node list of all elements with class name text-block
 let currentIndex = 0;
 const textBlocks = document.querySelectorAll('.text-block');
 
-// Initialize the first text block and the circles
+// Initialize the first text block and the dots
 function init() {
     textBlocks[currentIndex].style.display = 'block';
     updateCircles();
@@ -34,6 +34,7 @@ function setCurrentSlide(index) {
     updateCircles();
 }
 
+//updates the appearance of the circle in accordance with the text blocks
 function updateCircles() {
     const dots = document.querySelectorAll('.dot');
     dots.forEach((dot, index) => {
