@@ -51,6 +51,7 @@ body {
   margin: 0;
   background-color: aqua;
 }
+
 /* FOOTER*/
 .contact-form input,
 .contact-form textarea {
@@ -79,65 +80,79 @@ body {
 
 .contact-form button[type="submit"]:hover {
   background-color: var(--primary-color);
-<<<<<<< HEAD
-=======
+  <<<<<<< HEAD=======
 }
 
 /*Home page title*/
 
 .title {
-    justify-content: space-between;
-    width: 570px;
-    /* Use mozilla firefox's flex tools to understand the layout better */
-    display: flex;
-    flex-direction: column;
+  justify-content: space-between;
+  width: 570px;
+  /* Use mozilla firefox's flex tools to understand the layout better */
+  display: flex;
+  flex-direction: column;
 }
 
 .titleMultyTypographyBox {
-    /* Flex box is used in order to ensure dynamic resizing. */
-    display: flex;
-    /* The title is centered horizontally.  and each of its component are on top of each other*/
-    flex-direction: column;
-    align-items:left;
-    justify-content: center;
+  /* Flex box is used in order to ensure dynamic resizing. */
+  display: flex;
+  /* The title is centered horizontally.  and each of its component are on top of each other*/
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
 }
 
 .incencitive {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 24px;
-    text-align: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: left;
 }
 
 .titleBold {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 70px;
-    font-weight: 700;
-    line-height: 65px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 65px;
 }
 
 .titleSkinny {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 70px;
-    font-weight: 200;
-    line-height: 55px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 70px;
+  font-weight: 200;
+  line-height: 55px;
 }
-.titlebox{
-    /* Flex box is used in order to ensure dynamic resizing. */
-    display: flex;
-    /* The title is centered horizontally.  and each of its component are on top of each other*/
-    flex-direction: row;
-    align-items:center;
-    justify-content: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+
+.titlebox {
+  /* Flex box is used in order to ensure dynamic resizing. */
+  display: flex;
+  /* The title is centered horizontally.  and each of its component are on top of each other*/
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
+
 #push {
-    text-decoration: none;
-    color: black; 
+  text-decoration: none;
+  color: black;
 }
+
 #push:hover {
-    color:orangered;
->>>>>>> 261941a09680d733585aafcaa0bcdc48e0930b3c
+  color: orangered;
+  >>>>>>>261941a09680d733585aafcaa0bcdc48e0930b3c
+}
+
+body.pricing {
+  background: #f7f7ff;
+  font-family: 'Montserrat', 'san-serif';
+  width: 80%;
+  max-width: 1440px;
+  margin: 0, auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: scroll;
 }
