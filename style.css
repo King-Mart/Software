@@ -6,12 +6,20 @@
 /* Use a flexbox to dynamically reposition items*/
 .top-navbar {
   background-color: navy;
-  position: fixed;
+  position: sticky;
   top: -60px;
   width: 100%;
   transition: top 0.5s;
 }
 
+.top-navbar ul { 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 /* Change the color of the links*/
 .top-navbar a {
@@ -19,6 +27,7 @@
   display: block;
   color: white;
   text-align: center;
+  padding-left: 20px;
   padding: 20px;
   text-decoration: none;
   transition: 0.5s
@@ -37,6 +46,87 @@
 .top-navbar .active {
   background-color: #04AA6D;
 }
+/*Home page title*/
+
+.title {
+  justify-content: space-between;
+  width: 570px;
+  /* Use mozilla firefox's flex tools to understand the layout better */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 570px;
+  /* Use mozilla firefox's flex tools to understand the layout better */
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+.titleMultyTypographyBox {
+  /* Flex box is used in order to ensure dynamic resizing. */
+  display: flex;
+  /* The title is centered horizontally.  and each of its component are on top of each other*/
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+.incencitive {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: left;
+}
+
+.titleBold {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 65px;
+}
+
+.titleSkinny {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 70px;
+  font-weight: 200;
+  line-height: 55px;
+}
+
+.titlebox {
+  /* Flex box is used in order to ensure dynamic resizing. */
+  display: flex;
+  /* The title is centered horizontally.  and each of its component are on top of each other*/
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+  .titlebox {
+    /* Flex box is used in order to ensure dynamic resizing. */
+    display: flex;
+    /* The title is centered horizontally.  and each of its component are on top of each other*/
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+
+  #push {
+    text-decoration: none;
+    color: black;
+  }
+
+  #push:hover {
+    color: orangered;
+
+  }
 
 #review-stars {
   margin: auto;
@@ -137,93 +227,15 @@ body {
 
 }
 
-/*Home page title*/
-
-.title {
-  justify-content: space-between;
-  width: 570px;
-  /* Use mozilla firefox's flex tools to understand the layout better */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 570px;
-  /* Use mozilla firefox's flex tools to understand the layout better */
-  display: flex;
-  flex-direction: column;
-  margin-top: 0px;
-  margin-bottom: 0px;
-
-}
-
-.titleMultyTypographyBox {
-  /* Flex box is used in order to ensure dynamic resizing. */
-  display: flex;
-  /* The title is centered horizontally.  and each of its component are on top of each other*/
-  flex-direction: column;
-  align-items: left;
-  justify-content: center;
-}
-
-.incencitive {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 24px;
-  text-align: left;
-}
-
-.titleBold {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 70px;
-  font-weight: 700;
-  line-height: 65px;
-}
-
-.titleSkinny {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 70px;
-  font-weight: 200;
-  line-height: 55px;
-}
-
-.titlebox {
-  /* Flex box is used in order to ensure dynamic resizing. */
-  display: flex;
-  /* The title is centered horizontally.  and each of its component are on top of each other*/
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-  .titlebox {
-    /* Flex box is used in order to ensure dynamic resizing. */
-    display: flex;
-    /* The title is centered horizontally.  and each of its component are on top of each other*/
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-  }
-
-  #push {
-    text-decoration: none;
-    color: black;
-  }
-
-  #push:hover {
-    color: orangered;
-
-  }
 
   body.pricing {
     background: #f7f7ff;
     font-family: 'Montserrat', 'san-serif';
     width: 100%;
-    max-width: 1440px;
+    /* Using fixed width or max width is not recomended because it will limit the display on different screen size.
+    Instead, we use 100% to make sure the page is responsive.  Or we can use flex or grid layouts. I will comment it
+    out for now.*/
+    /* max-width: 1440px; */
     margin: 0, auto;
     display: flex;
     flex-direction: column;
