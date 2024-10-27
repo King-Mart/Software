@@ -14,7 +14,7 @@
 <body>
     <nav class="top-navbar">
         <ul>
-            <li ><a class="active" href="home.html">Home</a></li>
+            <li ><a class="active" href="home.html" id="Main">Home</a></li>
             <li><a href="teampage.html">About Us</a></li>
             <li><a href="faq.html">FAQ</a></li>
             <li><a href="features.html"> Features</a> </li>
@@ -24,11 +24,28 @@
     </nav>
     <script src="./main.js"></script>
     <div style="background-color: beige; margin-top: 0;">
+        <section>
+                <div class="titlebox">
+                    <div class="title">
+                        <h1 class="titleMultyTypographyBox">
+                            <span class="incencitive"> 
+                                The only fitness tracker you'll ever need
+                            </span>
+                            <span class="titleBold">
+                                <a id="push" href="startToday.html" >Push!</a>Your coach
+                                <span class="titleSkinny">
+                                    in your pocket
+                                </span>
+                            </span>
+                        </h1>
+                    </div>
+                </div>
+        </section>
         <h1 >
             PUSH
         </h1>
-        <h3>another one</h3>
-        <p><button>start today!</button></p>
+        <h2>Your personal coach in </h2>
+
         <p>Track workouts. Optimize performance. Achieve goals.</p>
         <p>
             Introducing Push, the cutting-edge fitness tracking app that enhances your workout experience. Using advanced sensors, Push accurately tracks your movements and repetitions, offering real-time feedback to optimize performance. Perfect for weightlifting and high-intensity training, it keeps you focused on your fitness goals and ensures every rep counts. With a user-friendly interface and insightful analytics, Push empowers you to push your limits and achieve your best results. 
@@ -66,6 +83,11 @@
     <p>Team 7</p>
     <!--#include file="footer.html"-->
 </footer>
-
+<form>
+    <label for="newName">Name:</label>
+    <input type="text" id="newName" name="newName"><br><br>
+    <button type="button" onclick="change_name()">Submit</button>
+    </form>
+    <p><button>start today!</button></p>
 </html>
 <!-- PS, never add your API key on the github version -->
