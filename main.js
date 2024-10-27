@@ -4,9 +4,9 @@
 window.onscroll = function() {scrollFunction()};
 function scrollFunction(){
     if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
-        document.getElementById("top-navbar").style.top = "0";
+        document.getElementsByClassName("top-navbar")[0].style.top = "0";
     }else{
-        document.getElementById("top-navbar").style.top = "-60px";
+        document.getElementsByClassName("top-navbar")[0].style.top = "-60px";
     }
 }
 
@@ -43,5 +43,8 @@ function updateCircles() {
 }
 
 init(); // Call the init function to start the slider
+
+
+
 
 

@@ -3,7 +3,7 @@
 
 <head>
     <!-- this is the main page of the website -->
-    <!-- This line makes sure the page will show at full width on normal zoom when visiting froma mobile device-->
+    <!-- This line makes sure the page will show at full width on normal zoom when visiting from a mobile device-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>PUSH </title>
@@ -12,68 +12,81 @@
 </head>
 
 <body>
-    <div id="top-navbar">
-            <a class="active" href="home.html" id="Main">Home</a>
-            <a href="teampage.html">About Us</a>
-            <a href="faq.html">FAQ</a>
-            <a href="features.html"> Features</a>
-            <a href="pricing.html">Plans</a>
-            <a href="startToday.html">Start today</a>
-    </div>
-    <div style="background-color: beige; margin-top: 0;">
-        <section>
-                <div class="titlebox">
-                    <div class="title">
-                        <h1 class="titleMultyTypographyBox">
-                            <span class="incencitive"> 
-                                The only fitness tracker you'll ever need
+<!--
+If you wish to add another nav bar that is fixed.
+add it above this one
+If you don't like the scroll down function for this page
+then put it in comments
+
+the script has to be at the end of the code.
+dont ask me why
+the review section doesn't work otherwise
+
+the navbar should be used for the features page so that the
+user can always click to go to a specific feature
+and the animation doesnt work on pages that cant scroll
+-->
+
+<div class="top-navbar">
+    <a class="active" href="home.html" id="Main">Home</a>
+    <a href="teampage.html">About Us</a>
+    <a href="faq.html">FAQ</a>
+    <a href="features.html"> Features</a>
+    <a href="pricing.html">Plans</a>
+    <a href="startToday.html">Start today</a>
+</div>
+<br>
+<div style="background-color: beige; margin-top: 0;">
+    <section>
+        <div class="titlebox">
+            <div class="title">
+                <h1 class="titleMultyTypographyBox">
+                            <span class="incencitive">
+                                Industry pinoneer in motion tracking
                             </span>
-                            <span class="titleBold">
+                    <span class="titleBold">
                                 <a id="push" href="startToday.html" >Push! </a>Your coach
                                 <span class="titleSkinny">
                                     in your pocket
                                 </span>
                             </span>
-                        </h1>
-                    </div>
-                </div>
-        </section>
-        <h1 >
-            PUSH
-        </h1>
-        <h2>Your personal coach in </h2>
+                </h1>
+            </div>
+        </div>
+    </section>
+    <h1 >
+        PUSH
+    </h1>
+    <h2>Your personal coach in </h2>
 
-        <p>Track workouts. Optimize performance. Achieve goals.</p>
-        <p>
-            Introducing Push, the cutting-edge fitness tracking app that enhances your workout experience. Using advanced sensors, Push accurately tracks your movements and repetitions, offering real-time feedback to optimize performance. Perfect for weightlifting and high-intensity training, it keeps you focused on your fitness goals and ensures every rep counts. With a user-friendly interface and insightful analytics, Push empowers you to push your limits and achieve your best results. 
-        </p>
-    </div>
-    <div id="review">
-        <br><br><br>
-        <svg id="review-stars" width="200" height="50" viewBox="0 0 100 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M8.51318 0.486816L10.4245 6.36928H16.6097L11.6058 10.0048L13.5171 15.8873L8.51318 12.2517L3.50926 15.8873L5.42059 10.0048L0.416665 6.36928H6.60185L8.51318 0.486816Z" fill="#FDDA1C"/>
-            <path d="M29.2568 0.486816L31.1682 6.36928H37.3534L32.3494 10.0048L34.2608 15.8873L29.2568 12.2517L24.2529 15.8873L26.1642 10.0048L21.1603 6.36928H27.3455L29.2568 0.486816Z" fill="#FDDA1C"/>
-            <path d="M50 0.486816L51.9113 6.36928H58.0965L53.0926 10.0048L55.0039 15.8873L50 12.2517L44.9961 15.8873L46.9074 10.0048L41.9035 6.36928H48.0887L50 0.486816Z" fill="#FDDA1C"/>
-            <path d="M70.7432 0.486816L72.6545 6.36928H78.8397L73.8358 10.0048L75.7471 15.8873L70.7432 12.2517L65.7392 15.8873L67.6506 10.0048L62.6466 6.36928H68.8318L70.7432 0.486816Z" fill="#FDDA1C"/>
-            <path d="M91.4868 0.486816L93.3981 6.36928H99.5833L94.5794 10.0048L96.4907 15.8873L91.4868 12.2517L86.4829 15.8873L88.3942 10.0048L83.3903 6.36928H89.5755L91.4868 0.486816Z" fill="#FDDA1C"/>
-        </svg>
-        <h1 class="review-header">The Only Fitness Tracker You'll Ever Need</h1>
-        <div class="reviews">
-            <div class="text-block fade">"Push has completely transformed my workouts and my life! The real-time feedback keeps me accountable, and I’ve seen a noticeable improvement in my strength and endurance. I feel more confident at the gym and more focused on my fitness goals. This app is truly empowering—it's like having a personal coach in my pocket!"</div>
-            <div class="text-block fade">"I can’t thank Push enough for the positive change it’s brought to my fitness routine! The detailed analytics have helped me understand my body better and optimize my training. I've not only gained muscle but also improved my mental resilience. It’s motivating to see real progress, and I feel like I can conquer any workout now!"</div>
-            <div class="text-block fade">"Push is simply life-changing! The app tracks my movements with incredible accuracy, and the insights have helped me push through my limits. I feel more in tune with my body, and it’s inspiring to see how far I’ve come. It's more than just an app; it’s a vital part of my fitness journey!"</div>
-            <div class="text-block fade">"Absolutely love the Push app! It’s made a significant impact on my life, both physically and mentally. I’m lifting heavier and feeling stronger, and I’m genuinely excited about my workouts. The user-friendly design keeps me engaged, and I feel motivated to reach new heights every day. This app is a game changer!"</div>
-            <div class="text-block fade"> "Push has not only elevated my fitness routine but also my overall well-being. The real-time feedback has been crucial in helping me stay on track, and I've built a stronger mindset around my health goals. Seeing tangible results is incredibly rewarding, and I can’t imagine training without it. It truly empowers you to live your best fitness life!"</div>
-        </div>
-        <div class="dot-container">
-            <div class="dot" onclick="setCurrentSlide(0)"></div>
-            <div class="dot" onclick="setCurrentSlide(1)"></div>
-            <div class="dot" onclick="setCurrentSlide(2)"></div>
-            <div class="dot" onclick="setCurrentSlide(3)"></div>
-            <div class="dot" onclick="setCurrentSlide(4)"></div>
-        </div>
-    </div>
-    <script src="./main.js"></script>
+    <p>Track workouts. Optimize performance. Achieve goals.</p>
+    <p>
+        Introducing Push, the cutting-edge fitness tracking app that enhances your workout experience. Using advanced sensors, Push accurately tracks your movements and repetitions, offering real-time feedback to optimize performance. Perfect for weightlifting and high-intensity training, it keeps you focused on your fitness goals and ensures every rep counts. With a user-friendly interface and insightful analytics, Push empowers you to push your limits and achieve your best results.
+    </p>
+</div>
+<svg id="review-stars" width="200" height="50" viewBox="0 0 100 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M8.51318 0.486816L10.4245 6.36928H16.6097L11.6058 10.0048L13.5171 15.8873L8.51318 12.2517L3.50926 15.8873L5.42059 10.0048L0.416665 6.36928H6.60185L8.51318 0.486816Z" fill="#FDDA1C"/>
+    <path d="M29.2568 0.486816L31.1682 6.36928H37.3534L32.3494 10.0048L34.2608 15.8873L29.2568 12.2517L24.2529 15.8873L26.1642 10.0048L21.1603 6.36928H27.3455L29.2568 0.486816Z" fill="#FDDA1C"/>
+    <path d="M50 0.486816L51.9113 6.36928H58.0965L53.0926 10.0048L55.0039 15.8873L50 12.2517L44.9961 15.8873L46.9074 10.0048L41.9035 6.36928H48.0887L50 0.486816Z" fill="#FDDA1C"/>
+    <path d="M70.7432 0.486816L72.6545 6.36928H78.8397L73.8358 10.0048L75.7471 15.8873L70.7432 12.2517L65.7392 15.8873L67.6506 10.0048L62.6466 6.36928H68.8318L70.7432 0.486816Z" fill="#FDDA1C"/>
+    <path d="M91.4868 0.486816L93.3981 6.36928H99.5833L94.5794 10.0048L96.4907 15.8873L91.4868 12.2517L86.4829 15.8873L88.3942 10.0048L83.3903 6.36928H89.5755L91.4868 0.486816Z" fill="#FDDA1C"/>
+</svg>
+<h1 class="review-header">The Only Fitness Tracker you'll Ever Need</h1>
+<div class="reviews">
+    <div class="text-block fade">"Push has completely transformed my workouts and my life! The real-time feedback keeps me accountable, and I’ve seen a noticeable improvement in my strength and endurance. I feel more confident at the gym and more focused on my fitness goals. This app is truly empowering—it's like having a personal coach in my pocket!"</div>
+    <div class="text-block fade">"I can’t thank Push enough for the positive change it’s brought to my fitness routine! The detailed analytics have helped me understand my body better and optimize my training. I've not only gained muscle but also improved my mental resilience. It’s motivating to see real progress, and I feel like I can conquer any workout now!"</div>
+    <div class="text-block fade">"Push is simply life-changing! The app tracks my movements with incredible accuracy, and the insights have helped me push through my limits. I feel more in tune with my body, and it’s inspiring to see how far I’ve come. It's more than just an app; it’s a vital part of my fitness journey!"</div>
+    <div class="text-block fade">"Absolutely love the Push app! It’s made a significant impact on my life, both physically and mentally. I’m lifting heavier and feeling stronger, and I’m genuinely excited about my workouts. The user-friendly design keeps me engaged, and I feel motivated to reach new heights every day. This app is a game changer!"</div>
+    <div class="text-block fade"> "Push has not only elevated my fitness routine but also my overall well-being. The real-time feedback has been crucial in helping me stay on track, and I've built a stronger mindset around my health goals. Seeing tangible results is incredibly rewarding, and I can’t imagine training without it. It truly empowers you to live your best fitness life!"</div>
+</div>
+<div class="dot-container">
+    <div class="dot" onclick="setCurrentSlide(0)"></div>
+    <div class="dot" onclick="setCurrentSlide(1)"></div>
+    <div class="dot" onclick="setCurrentSlide(2)"></div>
+    <div class="dot" onclick="setCurrentSlide(3)"></div>
+    <div class="dot" onclick="setCurrentSlide(4)"></div>
+</div>
+<script src="./main.js"></script>
 </body>
 
 <footer>
@@ -90,7 +103,7 @@
     <label for="newName">Name:</label>
     <input type="text" id="newName" name="newName"><br><br>
     <button type="button" onclick="change_name()">Submit</button>
-    </form>
-    <p><button>start today!</button></p>
+</form>
+<p><button>start today!</button></p>
 </html>
 <!-- PS, never add your API key on the github version -->
