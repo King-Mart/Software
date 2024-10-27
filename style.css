@@ -231,7 +231,7 @@ header.pricing {
 }
 
 .plans .pl.advanced {
-  background: linear-gradient(135deg, rgb(88, 92, 180) 0%, rgb(70, 174, 5) 100%);
+  background: linear-gradient(135deg, rgb(61, 90, 33) 0%, rgb(200, 229, 36) 100%);
   color: #fff;
   display: flex;
   align-items: center;
@@ -269,4 +269,30 @@ ul li.price {
 
 .pl.advanced .price {
   color: #fff;
+}
+
+.btn {
+  margin-top: 1rem;
+  height: 2.6rem;
+  width: 13.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: linear-gradient(135deg, rgb(84, 132, 191)0%, rgb(31, 211, 79)100%);
+
+}
+
+.advanced-btn {
+  background: #fff;
+  color: hsl(67, 58%, 46%);
+
+}
+
+.bottom {
+  border-bottom: 2px solid hsl(240, 8%, 85%, 0.582);
+}
+
+.plan {
+  font-size: 1.1rem;
 }
