@@ -51,6 +51,7 @@ ul li {
 /* Change the color of the links*/
 
 .top-navbar {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: navy;
   position: fixed;
   top: -60px;
@@ -65,17 +66,24 @@ ul li {
   text-align: center;
   padding: 20px;
   text-decoration: none;
+<<<<<<< HEAD
   <<<<<<< HEAD transition: 0.5s
     /* Needed to fix the active element appearing smaller than usual*/
     =======transition: 0.5s;
+=======
+  transition: background-color 0.2s, font-weight 0.5s, font-size 0.5s;
+  line-height: 20px;
+>>>>>>> 7b455e652ba68ec04c6d60b096d6037dd0c7c98e
   background-color: navy;
+  min-width: 80px;
   /* Needed to fix the active element appearing smaller than usual*/
   >>>>>>>d1ed1b58b5199ea2cd980072a46c789ae7ff86d4
 }
 
 .top-navbar a:hover {
-  font-weight: bold;
   background-color: rgb(9, 6, 54);
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .top-navbar .active:hover {
