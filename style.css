@@ -23,8 +23,7 @@ ul li {
 /* Top Nav Bar*/
 
 /* Use a flexbox to dynamically reposition items*/
-<<<<<<< HEAD
-.top-navbar {
+<<<<<<< HEAD .top-navbar {
   background-color: navy;
   position: sticky;
   width: 100%;
@@ -66,14 +65,12 @@ ul li {
   text-align: center;
   padding: 20px;
   text-decoration: none;
-<<<<<<< HEAD
-  transition: 0.5s
+  <<<<<<< HEAD transition: 0.5s
     /* Needed to fix the active element appearing smaller than usual*/
-=======
-  transition: 0.5s;
+    =======transition: 0.5s;
   background-color: navy;
   /* Needed to fix the active element appearing smaller than usual*/
->>>>>>> d1ed1b58b5199ea2cd980072a46c789ae7ff86d4
+  >>>>>>>d1ed1b58b5199ea2cd980072a46c789ae7ff86d4
 }
 
 .top-navbar a:hover {
@@ -176,22 +173,19 @@ ul li {
 
 }
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> d1ed1b58b5199ea2cd980072a46c789ae7ff86d4
+<<<<<<< HEAD=======>>>>>>>d1ed1b58b5199ea2cd980072a46c789ae7ff86d4
 /* Review section */
 
 #review-stars {
   margin: auto;
   display: block;
 }
+
 .review-header {
   text-align: center;
   color: white;
 }
+
 .reviews {
   display: flex;
   align-items: center;
@@ -200,6 +194,7 @@ ul li {
   width: 1000px;
   margin: auto;
 }
+
 .text-block {
   color: white;
   display: none;
@@ -210,10 +205,12 @@ ul li {
   flex: 1;
   /* Allow text block to grow */
 }
+
 .dot-container {
   text-align: center;
   margin-top: 20px;
 }
+
 .dot {
   display: inline-block;
   width: 15px;
@@ -224,16 +221,20 @@ ul li {
   cursor: pointer;
   transition: 0.5s;
 }
+
 .dot:hover {
   background-color: #333333;
 }
+
 .active {
   background-color: #333333;
 }
+
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
 }
+
 @keyframes fade {
   from {
     opacity: .4
@@ -433,7 +434,7 @@ header.pricing {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+
 
 }
 
