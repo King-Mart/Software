@@ -231,6 +231,14 @@ header.pricing {
   border-radius: 0.8em;
 }
 
+.plans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
 .plans .pl.advanced {
   background: linear-gradient(135deg, rgb(61, 90, 33) 0%, rgb(200, 229, 36) 100%);
   color: #fff;
@@ -308,6 +316,41 @@ ul li.price {
 
 }
 
+@media (max-width: 280px) {
+  ul {
+    margin: 1rem;
+
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  .tg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+  }
+
+  .plans {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pl {
+    transform: scale(0.8);
+    margin-bottom: 1rem;
+  }
+
+  .plans .advanced {
+    transform: scale(0.8);
+  }
+}
+
+
 @media (min-width:320px) and (max-width:414px) {
   .plans {
     display: flex;
@@ -343,8 +386,10 @@ ul li.price {
   }
 
   .pl {
-    margin-bottom: 1 rem;
-    margin-right: 1reml
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    margin-left: 20%;
+
   }
 
   .plans .advanced {
