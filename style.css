@@ -88,6 +88,8 @@ body {
     /* Use mozilla firefox's flex tools to understand the layout better */
     display: flex;
     flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .titleMultyTypographyBox {
@@ -127,8 +129,8 @@ body {
     flex-direction: row;
     align-items:center;
     justify-content: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 #push {
     text-decoration: none;
