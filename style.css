@@ -307,3 +307,47 @@ ul li.price {
 
 
 }
+
+@media (min-width:320px) and (max-width:414px) {
+  .plans {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .pl {
+    margin-bottom: 1rem;
+  }
+
+  .pl .advanced {
+    transform: scale(1);
+  }
+
+}
+
+@media (min-width:414px) and (max-width:768px) {
+  .pl {
+    margin-bottom: bottom 1rem;
+    margin-right: 1rem;
+  }
+
+  .plans .advanced {
+    transform: scale(1);
+  }
+}
+
+@media (min-width:768px) and (max-width:1046px) {
+  .plans {
+    display: flex;
+
+  }
+
+  .pl {
+    margin-bottom: 1 rem;
+    margin-right: 1reml
+  }
+
+  .plans .advanced {
+    transform: scale(1);
+  }
+}
