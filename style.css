@@ -1,6 +1,9 @@
 /*Please write a comment explaining what you do, it is confusing and longer to make modifications otherwise. Thank you*/
 
+/* Make the navbar inline*/
 
+
+/* Use a flexbox to dynamically reposition items*/
 .top-navbar ul {
     display: flex;
     margin: 0;
@@ -12,7 +15,7 @@
 
 }
 
-
+/* Change the color of the links*/
 .top-navbar a {
     color: white;
     display: block;
@@ -34,6 +37,7 @@
     background-color: #04AA6D;
 }
 
+/* Change the background color of the navbar*/
 .top-navbar {
     background-color: #333;
     position: sticky;
