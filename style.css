@@ -132,7 +132,7 @@ body {
   line-height: 55px;
 }
 
-<<<<<<< HEAD .titlebox {
+HEAD .titlebox {
   /* Flex box is used in order to ensure dynamic resizing. */
   display: flex;
   /* The title is centered horizontally.  and each of its component are on top of each other*/
@@ -174,4 +174,14 @@ body {
     flex-direction: column;
     align-items: center;
     overflow-x: scroll;
+  }
+
+  header.pricing {
+    color: hsl(233, 13%, 49%);
+    margin: 3.3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
   }
