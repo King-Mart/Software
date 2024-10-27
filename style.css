@@ -169,7 +169,7 @@ body.pricing {
   background: #f7f7ff;
   font-family: 'Montserrat', 'san-serif';
   width: 100%;
-  max-width: 1440px;
+
   margin: 0, auto;
   display: flex;
   flex-direction: column;
@@ -180,7 +180,7 @@ body.pricing {
 
 header.pricing {
   color: hsl(143, 61%, 48%);
-  margin: 3.3rem 0;
+  margin: 2.3rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -209,7 +209,7 @@ header.pricing {
   align-items: center;
   justify-content: flex-start;
   height: 1.6rem;
-  width: 3.3rem;
+  width: 3.0rem;
   border-radius: 1.6rem;
   padding: 0.3rem;
 }
@@ -227,8 +227,8 @@ header.pricing {
 
 .pl {
   background: #fff;
-  color: hsl(139, 44%, 45%);
-  border-radius: 10%;
+  color: hsl(233, 13%, 49%);
+  border-radius: 0.8em;
 }
 
 .plans .pl.advanced {
@@ -236,8 +236,8 @@ header.pricing {
   color: #fff;
   display: flex;
   align-items: center;
-  transform: scale(1.1);
-  z-index: 1;
+  transform: scale(1.0);
+  z-index: 0;
 }
 
 ul {
@@ -281,6 +281,10 @@ ul li.price {
   align-items: center;
   border-radius: 4px;
   background: linear-gradient(135deg, rgb(84, 132, 191)0%, rgb(31, 211, 79)100%);
+  color: #fff;
+  outline: none;
+  border: 0;
+  font-weight: bold;
 
 }
 
@@ -294,6 +298,13 @@ ul li.price {
   border-bottom: 2px solid hsl(240, 8%, 85%, 0.582);
 }
 
-.plan {
-  font-size: 1.3rem;
+
+
+.plans {
+  font-size: 1.1rem;
+
+  margin-left: 2;
+  margin-right: 2;
+
+
 }
