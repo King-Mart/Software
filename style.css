@@ -227,28 +227,316 @@ body {
 
 }
 
+/*Home page title*/
 
-  body.pricing {
-    background: #f7f7ff;
-    font-family: 'Montserrat', 'san-serif';
-    width: 100%;
-    /* Using fixed width or max width is not recomended because it will limit the display on different screen size.
-    Instead, we use 100% to make sure the page is responsive.  Or we can use flex or grid layouts. I will comment it
-    out for now.*/
-    /* max-width: 1440px; */
-    margin: 0, auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow-x: scroll;
+.title {
+  justify-content: space-between;
+  width: 570px;
+  /* Use mozilla firefox's flex tools to understand the layout better */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 570px;
+  /* Use mozilla firefox's flex tools to understand the layout better */
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+.titleMultyTypographyBox {
+  /* Flex box is used in order to ensure dynamic resizing. */
+  display: flex;
+  /* The title is centered horizontally.  and each of its component are on top of each other*/
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+.incencitive {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: left;
+}
+
+.titleBold {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 65px;
+}
+
+.titleSkinny {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 70px;
+  font-weight: 200;
+  line-height: 55px;
+}
+
+.titlebox {
+  /* Flex box is used in order to ensure dynamic resizing. */
+  display: flex;
+  /* The title is centered horizontally.  and each of its component are on top of each other*/
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.titlebox {
+  /* Flex box is used in order to ensure dynamic resizing. */
+  display: flex;
+  /* The title is centered horizontally.  and each of its component are on top of each other*/
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+#push {
+  text-decoration: none;
+  color: black;
+}
+
+#push:hover {
+  color: orangered;
+
+}
+
+body.pricing {
+  background: #f7f7ff;
+  font-family: 'Montserrat', 'san-serif';
+  width: 100%;
+
+  margin: 0, auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: scroll;
+  font-weight: bold;
+}
+
+header.pricing {
+  color: hsl(143, 61%, 48%);
+  margin: 2.3rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tg {
+  margin-top: 2rem;
+  color: hsl(234, 14%, 74%);
+  display: flex;
+  align-items: center;
+}
+
+.tg-btn {
+  margin: 0 1rem;
+}
+
+.checkbox {
+  display: none;
+
+}
+
+.sub {
+  background: linear-gradient(135deg, rgba(163, 168, 240, 1) 0%, rgb(32, 210, 109) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 1.6rem;
+  width: 3.0rem;
+  border-radius: 1.6rem;
+  padding: 0.3rem;
+}
+
+.circle {
+  background: #fff;
+  height: 1.4rem;
+  width: 1.4rem;
+  border-radius: 50%;
+}
+
+.checkbox:checked+.sub {
+  justify-content: flex-end;
+}
+
+.pl {
+  background: #fff;
+  color: hsl(233, 13%, 49%);
+  border-radius: 0.8em;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.plans .pl.advanced {
+  background: linear-gradient(135deg, rgb(61, 90, 33) 0%, rgb(200, 229, 36) 100%);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  transform: scale(1.0);
+  z-index: 0;
+}
+
+ul {
+  margin: 2.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem 0;
+
+}
+
+ul li.price {
+  font-size: 3rem;
+  color: hsl(232, 13%, 33%);
+  padding-bottom: 2rem;
+
+}
+
+.basic {
+  box-shadow: -5px 5px 15px 1px rgba(0, 0, 0, 0.1);
+}
+
+.pl.advanced .price {
+  color: #fff;
+}
+
+.btn {
+  margin-top: 1rem;
+  height: 2.6rem;
+  width: 13.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: linear-gradient(135deg, rgb(84, 132, 191)0%, rgb(31, 211, 79)100%);
+  color: #fff;
+  outline: none;
+  border: 0;
+  font-weight: bold;
+
+}
+
+.advanced-btn {
+  background: #fff;
+  color: hsl(67, 58%, 46%);
+
+}
+
+.bottom {
+  border-bottom: 2px solid hsl(240, 8%, 85%, 0.582);
+}
+
+
+
+.plans {
+  font-size: 1.1rem;
+
+
+
+
+}
+
+@media (max-width: 280px) {
+  ul {
+    margin: 1rem;
+
   }
 
-  header.pricing {
-    color: hsl(233, 13%, 49%);
-    margin: 3.3rem 0;
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  .tg {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    height: 80px;
+  }
+
+  .plans {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pl {
+    transform: scale(0.8);
+    margin-bottom: 1rem;
+  }
+
+  .plans .advanced {
+    transform: scale(0.8);
+  }
+}
+
+
+@media (min-width:320px) and (max-width:414px) {
+  .plans {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .pl {
+    margin-bottom: 1rem;
+  }
+
+  .pl .advanced {
+    transform: scale(1);
+  }
+
+}
+
+@media (min-width:414px) and (max-width:768px) {
+  .pl {
+    margin-bottom: bottom 1rem;
+    margin-right: 1rem;
+  }
+
+  .plans .advanced {
+    transform: scale(1);
+  }
+}
+
+@media (min-width:768px) and (max-width:1046px) {
+  .plans {
+    display: flex;
 
   }
+
+  .pl {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    margin-left: 20%;
+
+  }
+
+  .plans .advanced {
+    transform: scale(1);
+  }
+}
