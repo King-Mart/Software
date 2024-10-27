@@ -1,8 +1,17 @@
+NOTES:
+    Follow thses guidlines
+    Let everyone know if something is to be changed, updated, or removed so that the changes can be applied to the rest of the website
+    For reference as to how the website should look like for now, refer to the FAQ page
+
+
+----------------------------------------------------------------------------------
+
 MUST INCLUDE:
 The guideline is reflected in the website design.
 The guideline is reasonably detailed.
 
 -----------------------------------------------------------------------------------
+
 
 Overall colour theme:
     Gold = goldenrod #DAA520 
