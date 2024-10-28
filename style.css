@@ -66,15 +66,12 @@ ul li {
   text-align: center;
   padding: 20px;
   text-decoration: none;
-<<<<<<< HEAD
-  <<<<<<< HEAD transition: 0.5s
+  <<<<<<< HEAD <<<<<<< HEAD transition: 0.5s
     /* Needed to fix the active element appearing smaller than usual*/
     =======transition: 0.5s;
-=======
-  transition: background-color 0.2s, font-weight 0.5s, font-size 0.5s;
+  =======transition: background-color 0.2s, font-weight 0.5s, font-size 0.5s;
   line-height: 20px;
->>>>>>> 7b455e652ba68ec04c6d60b096d6037dd0c7c98e
-  background-color: navy;
+  >>>>>>>7b455e652ba68ec04c6d60b096d6037dd0c7c98e background-color: navy;
   min-width: 80px;
   /* Needed to fix the active element appearing smaller than usual*/
   >>>>>>>d1ed1b58b5199ea2cd980072a46c789ae7ff86d4
@@ -454,10 +451,12 @@ header.pricing {
   text-align: center;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: space-around;
+  flex-direction: column;
+  margin: 2.6em;
 }
 
-.plans .advanced {
+.plans .pl.advanced {
   background: linear-gradient(135deg, rgb(61, 90, 33) 0%, rgb(64, 50, 226) 100%);
   color: #fff;
   display: flex;
@@ -466,9 +465,15 @@ header.pricing {
   z-index: 0;
 }
 
+.pg li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem 0;
+}
 
-
-ul li.price {
+.pg li.price {
   font-size: 3rem;
   color: hsl(232, 13%, 33%);
   padding-bottom: 2rem;
@@ -481,7 +486,7 @@ ul li.price {
 
 
 
-.basic {
+.same {
   box-shadow: -5px 5px 15px 1px rgba(0, 0, 0, 0.1);
   align-items: center;
 }
@@ -562,10 +567,7 @@ ul li.price {
   }
 }
 
-.pl .pro {
 
-  position: absolute;
-}
 
 
 @media (min-width:320px) and (max-width:414px) {
