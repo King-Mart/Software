@@ -56,7 +56,7 @@ checkbox.addEventListener('click', () => {
     pro.textContent = pro.textContent === '$299.99' ? '$24.99' : '$299.99';
 
 
-})
+});
 
 
 
