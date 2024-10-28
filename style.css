@@ -442,7 +442,8 @@ header.pricing {
 .plans {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center, stretch;
+  height: auto;
 
 
 }
