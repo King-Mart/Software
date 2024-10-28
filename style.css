@@ -14,14 +14,94 @@ ul li {
 
 body {
   margin: 0;
-  background-color: beige;
+  background-color: white;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 * {
   margin: 0;
 
 }
+@media (max-width: 280px) {
 
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  .tg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+  }
+
+  .plans {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pl {
+    transform: scale(0.8);
+    margin-bottom: 1rem;
+  }
+
+  .plans .advanced {
+    transform: scale(0.8);
+  }
+}
+
+
+
+
+@media (min-width:320px) and (max-width:414px) {
+  .plans {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .pl {
+    margin-bottom: 1rem;
+  }
+
+  .pl .advanced {
+    transform: scale(1);
+  }
+
+}
+
+@media (min-width:414px) and (max-width:768px) {
+  .pl {
+    margin-bottom: bottom 1rem;
+    margin-right: 1rem;
+  }
+
+  .plans .advanced {
+    transform: scale(1);
+  }
+}
+
+@media (min-width:768px) and (max-width:1046px) {
+  .plans {
+    display: flex;
+    flex-wrap: wrap;
+
+
+  }
+
+  .pl {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+
+
+  }
+
+  .plans .advanced {
+    transform: scale(1);
+  }
+}
 /* Top Nav Bar*/
 
 /* Use a flexbox to dynamically reposition items*/
@@ -38,9 +118,7 @@ body {
 
 }
 
-=======
-/*
->>>>>>> d1ed1b58b5199ea2cd980072a46c789ae7ff86d4
+
 .top-navbar ul {
   display: flex;
   flex-direction: row;
@@ -53,15 +131,15 @@ body {
 .top-navbar ul li {
   padding: 0px;
 }
-*/
+
 
 /* Change the color of the links*/
 
 .top-navbar {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: navy;
-  position: fixed;
-  top: -60px;
+
+  top: 0px;
   width: 100%;
   transition: top 0.5s;
 }
@@ -78,7 +156,7 @@ body {
   height: 100%;
 
   /* Needed to fix the active element appearing smaller than usual*/
-  >>>>>>>d1ed1b58b5199ea2cd980072a46c789ae7ff86d4
+
 }
 
 .top-navbar a:hover {
@@ -167,7 +245,7 @@ body {
   justify-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin: 0 0 0 0;
+  margin: 30px;
 }
 
 #push {
@@ -180,7 +258,7 @@ body {
 
 
 }
-}
+
 
 
 /* Review section */
@@ -511,87 +589,3 @@ header.pricing {
 
 }
 
-@media (max-width: 280px) {
-  ul {
-    margin: 1rem;
-
-  }
-
-  h1 {
-    font-size: 1.2rem;
-  }
-
-  .tg {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 80px;
-  }
-
-  .plans {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .pl {
-    transform: scale(0.8);
-    margin-bottom: 1rem;
-  }
-
-  .plans .advanced {
-    transform: scale(0.8);
-  }
-}
-
-
-
-
-@media (min-width:320px) and (max-width:414px) {
-  .plans {
-    display: flex;
-    flex-direction: column;
-  }
-
-
-  .pl {
-    margin-bottom: 1rem;
-  }
-
-  .pl .advanced {
-    transform: scale(1);
-  }
-
-}
-
-@media (min-width:414px) and (max-width:768px) {
-  .pl {
-    margin-bottom: bottom 1rem;
-    margin-right: 1rem;
-  }
-
-  .plans .advanced {
-    transform: scale(1);
-  }
-}
-
-@media (min-width:768px) and (max-width:1046px) {
-  .plans {
-    display: flex;
-    flex-wrap: wrap;
-
-
-  }
-
-  .pl {
-    margin-bottom: 1rem;
-    margin-right: 1rem;
-
-
-  }
-
-  .plans .advanced {
-    transform: scale(1);
-  }
-}
