@@ -1,21 +1,8 @@
-NOTES:
-    Follow thses guidlines
-    Let everyone know if something is to be changed, updated, or removed so that the changes can be applied to the rest of the website
-    For reference as to how the website should look like for now, refer to the FAQ page
-
-
-----------------------------------------------------------------------------------
-
-MUST INCLUDE:
-The guideline is reflected in the website design.
-The guideline is reasonably detailed.
-
------------------------------------------------------------------------------------
-
 
 Overall colour theme:
     Gold = goldenrod #DAA520 
         -----> not using this right now in guideline, but can use if you want to wherever you see fit and then add it to the guideline where it was used
+    Purple
     Red = barnred 780000
     White = white #FFFFFF
     Black
@@ -26,21 +13,43 @@ Overall colour theme:
         blue = navy
 
 Layout:
-    Headers and content mostly centered
-    May have a few things side by side
+    FLexible layout, going for a vertical flow
+    sections are separated veritcally among themselves and their child are laid out horizontally
+    Some sections will be centered 
 
-Header:
+
+Header (navigation bar):
     Background colour: navy
     Text colour: white
     When page selected, font style of the page is underlined with white colour
-    Font style: bold, capitalized
-    Logo image included that when clicked, will lead to the home page
+    Font style: bold
+    Two versions:
+        Still deciding between the two versions. 
+        Version 1:
+            Home, Features, Plans, Start today
+            Aligned to the left
+            When hovering colour changes to light purple: rgb(135, 135, 248)
+            When selected (on that page), colour is dark purple: rgb(66, 26, 176)
+            Font style: bold
+        Version 2:
+            About Us, FAQ
+            Centered
+            Underlined text on the page selected
+            Nothing when hovering
 
 Footer:
-    background colour: navy
-    font colour: white
+    Multiple versions still in progress.
+    Version 1:    
+        Centered
+        background colour: navy 
+        font colour: white
+    Version 2: 
+        aligned to the left
+        background colour: white
+        font colour: black
 
 Images:
+    Images are not yet ready. Still looking and working on those as our product gets more developed
     Background images:
         Background images will be darkened a bit to make text visible
         Will take up the entire width of that page, not just the size of the image itself. If it doesn't fit it will be adjusted to fit.
@@ -50,21 +59,37 @@ Images:
         Logo will be put in the about us page
         Logo will be put at the top in the header that when clicked, it will lead to the home page
     Demos:
-        Screenshots and mockups of our product available on the about us and features page
+        Screenshots and mockups of our product available on the about us, features, and start today pages
 
-Special characters:
-    Reviews:
-        5-stars will be included in the gold colour for each reviews
-        Reviews will include quotation marks that are larger than the text to grab attention
+
+Reviews:
+    5-stars will be included in the gold colour for each reviews at the top big size
+    Reviews will be clicked through to create emphasis to read each one
+    Background colour: black
+    Text colour: white
+
+Special:
+    When the product name "Push!" is hovered on, the text colour changes to blue
+    When clicked, it leads to the Start today page
+
+Colour gradients:
+    Home page
+    Plans page
 
 Text colour:
-    Regular text on pages = black 
-    Text on background images: white, gold, or red
+    Regular text on pages = contrasting to the background -> black/white
+    Text on background images: avoided if not use contrasting background to make it readable
+
 
 Fonts:
-    Font name: Poppins
+    Font name: 
+        Monsterrat, sans-serif
+        'Gill Sans'
+        'Gill Sans MT' 
+        Calibri 
+        'Trebuchet MS', sans-serif
     Font styles:
         Bolded in headings
         Regular text will have no style (no bold, underline, or italics)
-        Links will be underlines
+        Links will be underlined
         Important information to be emphasized will be italicized or underlined    
