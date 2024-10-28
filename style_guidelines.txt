@@ -16,6 +16,7 @@ The guideline is reasonably detailed.
 Overall colour theme:
     Gold = goldenrod #DAA520 
         -----> not using this right now in guideline, but can use if you want to wherever you see fit and then add it to the guideline where it was used
+    purple
     Red = barnred 780000
     White = white #FFFFFF
     Black
@@ -26,14 +27,15 @@ Overall colour theme:
         blue = navy
 
 Layout:
-    Headers and content mostly centered
-    May have a few things side by side
+    FLexible layout, going for a vertical flow
+    sections are separated veritcally among themselves and their child are laid out horizontally
 
-Header:
+Header (nav bar):
     Background colour: navy
     Text colour: white
-    When page selected, font style of the page is underlined with white colour
-    Font style: bold, capitalized
+    When page selected, color of the link is dark purple
+    When page is hovered, the link becomes light purple
+    Font style: bold
     Logo image included that when clicked, will lead to the home page
 
 Footer:
@@ -50,7 +52,7 @@ Images:
         Logo will be put in the about us page
         Logo will be put at the top in the header that when clicked, it will lead to the home page
     Demos:
-        Screenshots and mockups of our product available on the about us and features page
+        Screenshots and mockups of our product available on the home start today and features page
 
 Special characters:
     Reviews:
@@ -58,8 +60,8 @@ Special characters:
         Reviews will include quotation marks that are larger than the text to grab attention
 
 Text colour:
-    Regular text on pages = black 
-    Text on background images: white, gold, or red
+    Regular text on pages = contrasting to the background -> black/white
+    Text on background images: avoided if not use contrasting background to make it readable
 
 Fonts:
     Font name: Poppins
