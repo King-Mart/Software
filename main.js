@@ -47,8 +47,8 @@ init(); // Call the init function to start the slider
 //switch between annual and monthly prices in pricing page when user clicks on the checkbox
 const checkbox = document.getElementById('checkbox');
 const pro = document.getElementById('pro');
-const advanced = document.getElementById('advanced')
-const basic = document.getElementById('basic')
+const advanced = document.getElementById('advanced');
+const basic = document.getElementById('basic');
 
 checkbox.addEventListener('click', () => {
     basic.textContent = basic.textContent === '$99.99' ? '$9.99' : '$99.99';
