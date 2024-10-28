@@ -127,6 +127,7 @@ body {
   margin: 0;
   padding: 0;
   align-items: stretch;
+  overflow-y: hidden;
 }
 .top-navbar ul li {
   padding: 0px;
@@ -138,7 +139,6 @@ body {
 .top-navbar {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: navy;
-
   top: 0px;
   width: 100%;
   transition: top 0.5s;
