@@ -23,7 +23,16 @@ ul li {
 /* Top Nav Bar*/
 
 /* Use a flexbox to dynamically reposition items*/
+<<<<<<< HEAD .top-navbar {
+  background-color: navy;
+  position: sticky;
+  width: 100%;
+  transition: top 0.5s;
+}
+
+=======
 /*
+>>>>>>> d1ed1b58b5199ea2cd980072a46c789ae7ff86d4
 .top-navbar ul {
   display: flex;
   flex-direction: row;
@@ -57,11 +66,15 @@ ul li {
   text-align: center;
   padding: 20px;
   text-decoration: none;
-  transition: background-color 0.2s, font-weight 0.5s, font-size 0.5s;
+  <<<<<<< HEAD <<<<<<< HEAD transition: 0.5s
+    /* Needed to fix the active element appearing smaller than usual*/
+    =======transition: 0.5s;
+  =======transition: background-color 0.2s, font-weight 0.5s, font-size 0.5s;
   line-height: 20px;
-  background-color: navy;
+  >>>>>>>7b455e652ba68ec04c6d60b096d6037dd0c7c98e background-color: navy;
   min-width: 80px;
   /* Needed to fix the active element appearing smaller than usual*/
+  >>>>>>>d1ed1b58b5199ea2cd980072a46c789ae7ff86d4
 }
 
 .top-navbar a:hover {
@@ -165,36 +178,44 @@ ul li {
 
 }
 
+
 /* Review section */
 
 #review-stars {
   margin: auto;
   display: block;
 }
+
 .review-header {
   text-align: center;
   color: white;
 }
+
 .reviews {
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   width: 1000px;
-  margin:auto;
+  margin: auto;
 }
+
 .text-block {
   color: white;
-  display: none; /* Hide all text blocks initially */
+  display: none;
+  /* Hide all text blocks initially */
   text-align: center;
   font-size: 15px;
   margin: 20px 20px;
-  flex: 1; /* Allow text block to grow */
+  flex: 1;
+  /* Allow text block to grow */
 }
+
 .dot-container {
   text-align: center;
   margin-top: 20px;
 }
+
 .dot {
   display: inline-block;
   width: 15px;
@@ -205,19 +226,28 @@ ul li {
   cursor: pointer;
   transition: 0.5s;
 }
+
 .dot:hover {
   background-color: #333333;
 }
+
 .active {
   background-color: #333333;
 }
+
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
 }
+
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 body {
@@ -353,7 +383,7 @@ body.pricing {
 }
 
 header.pricing {
-  color: hsl(143, 61%, 48%);
+  color: hsl(241, 83%, 30%);
   margin: 2.3rem 0;
   display: flex;
   flex-direction: column;
@@ -378,7 +408,7 @@ header.pricing {
 }
 
 .sub {
-  background: linear-gradient(135deg, rgba(163, 168, 240, 1) 0%, rgb(32, 210, 109) 100%);
+  background: linear-gradient(135deg, rgba(163, 168, 240, 1) 0%, rgb(29, 9, 209) 100%);
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -403,18 +433,32 @@ header.pricing {
   background: #fff;
   color: hsl(233, 13%, 49%);
   border-radius: 0.8em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .plans {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  align-items: center, stretch;
+  height: auto;
+
 
 }
 
+.pg {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: space-around;
+  flex-direction: column;
+  margin: 2.6em;
+}
+
 .plans .pl.advanced {
-  background: linear-gradient(135deg, rgb(61, 90, 33) 0%, rgb(200, 229, 36) 100%);
+  background: linear-gradient(135deg, rgb(61, 90, 33) 0%, rgb(64, 50, 226) 100%);
   color: #fff;
   display: flex;
   align-items: center;
@@ -422,21 +466,36 @@ header.pricing {
   z-index: 0;
 }
 
+.pg li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem 0;
+}
 
-
-ul li.price {
+.pg li.price {
   font-size: 3rem;
   color: hsl(232, 13%, 33%);
   padding-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
 
 }
 
-.basic {
+
+
+.same {
   box-shadow: -5px 5px 15px 1px rgba(0, 0, 0, 0.1);
+  align-items: center;
 }
 
 .pl.advanced .price {
   color: #fff;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn {
@@ -447,7 +506,7 @@ ul li.price {
   justify-content: center;
   align-items: center;
   border-radius: 4px;
-  background: linear-gradient(135deg, rgb(84, 132, 191)0%, rgb(31, 211, 79)100%);
+  background: linear-gradient(135deg, rgb(84, 132, 191)0%, rgb(48, 14, 217)100%);
   color: #fff;
   outline: none;
   border: 0;
@@ -457,17 +516,17 @@ ul li.price {
 
 .advanced-btn {
   background: #fff;
-  color: hsl(67, 58%, 46%);
+  color: hsl(243, 60%, 46%);
 
 }
 
-.bottom {
+.advanced bottom {
   border-bottom: 2px solid hsl(240, 8%, 85%, 0.582);
 }
 
 
 
-.plans {
+.plan {
   font-size: 1.1rem;
 
 
@@ -510,6 +569,8 @@ ul li.price {
 }
 
 
+
+
 @media (min-width:320px) and (max-width:414px) {
   .plans {
     display: flex;
@@ -541,13 +602,15 @@ ul li.price {
 @media (min-width:768px) and (max-width:1046px) {
   .plans {
     display: flex;
+    flex-wrap: wrap;
+
 
   }
 
   .pl {
     margin-bottom: 1rem;
     margin-right: 1rem;
-    margin-left: 20%;
+
 
   }
 
