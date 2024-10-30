@@ -121,7 +121,7 @@ body {
 .top-navbar ul {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -234,8 +234,8 @@ body {
 }
 
 #mockup {
-  width: 40%;
-  height: 40%;
+  width: 384px;
+  height: 640px;
   padding: 0px;
   margin: 0px;
 }
@@ -291,7 +291,7 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
-  width: 1000px;
+  width: 50%;
   margin: auto;
 }
 
