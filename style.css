@@ -253,10 +253,11 @@ body {
   /* The title is centered horizontally.  and each of its component are on top of each other*/
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin: 30px;
+  margin: 0 auto;
+  max-width: 50%;
 }
 
 #push {
