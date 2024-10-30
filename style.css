@@ -191,7 +191,7 @@ body {
   width: 570px;
   /* Use mozilla firefox's flex tools to understand the layout better */
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   width: 570px;
   /* Use mozilla firefox's flex tools to understand the layout better */
@@ -234,6 +234,12 @@ body {
   line-height: 55px;
 }
 
+#mockup {
+  width: 40%;
+  height: 40%;
+  padding: 0px;
+  margin: 0px;
+}
 
 
 .titlebox {
