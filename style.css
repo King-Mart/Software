@@ -2,58 +2,149 @@
 /* General css */
 ul {
   margin: 2.6rem;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: space-around;
 }
 
 ul li {
   list-style-type: none;
-  display: flex;
-  justify-content: center;
-  width: 100%;
   padding: 1rem 0;
 
 }
 
+body {
+  margin: 0;
+  background-color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+* {
+  margin: 0;
+
+}
+@media (max-width: 280px) {
+
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  .tg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+  }
+
+  .plans {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pl {
+    transform: scale(0.8);
+    margin-bottom: 1rem;
+  }
+
+  .plans .advanced {
+    transform: scale(0.8);
+  }
+}
 
 
 
+
+@media (min-width:320px) and (max-width:414px) {
+  .plans {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .pl {
+    margin-bottom: 1rem;
+  }
+
+  .pl .advanced {
+    transform: scale(1);
+  }
+
+}
+
+@media (min-width:414px) and (max-width:768px) {
+  .pl {
+    margin-bottom: bottom 1rem;
+    margin-right: 1rem;
+  }
+
+  .plans .advanced {
+    transform: scale(1);
+  }
+}
+
+@media (min-width:768px) and (max-width:1046px) {
+  .plans {
+    display: flex;
+    flex-wrap: wrap;
+
+
+  }
+
+  .pl {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+
+
+  }
+
+  .plans .advanced {
+    transform: scale(1);
+  }
+}
 /* Top Nav Bar*/
 
 /* Use a flexbox to dynamically reposition items*/
-<<<<<<< HEAD .top-navbar {
+.top-navbar nav {
+  position: sticky;
+  overflow-y: visible;
+}
+.top-navbar {
+  overflow-x: scroll;
   background-color: navy;
   position: sticky;
   width: 100%;
-  transition: top 0.5s;
+
+
 }
 
+<<<<<<< HEAD
 /*
 >>>>>>> d1ed1b58b5199ea2cd980072a46c789ae7ff86d4
+=======
+
+>>>>>>> 541b64cc6dcd080d2c3441ad946d842c03cbcf7c
 .top-navbar ul {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  align-items: stretch;
+  overflow-y: hidden;
 }
-
 .top-navbar ul li {
-  width: 200px;
   padding: 0px;
 }
-*/
+
 
 /* Change the color of the links*/
 
 .top-navbar {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: navy;
-  position: fixed;
-  top: -60px;
+  top: 0px;
   width: 100%;
   transition: top 0.5s;
 }
@@ -62,32 +153,28 @@ ul li {
   float: left;
   display: block;
   color: white;
+  font-weight: bold;
+  background-color: navy;
   text-align: center;
   padding: 20px;
   text-decoration: none;
-  <<<<<<< HEAD <<<<<<< HEAD transition: 0.5s
-    /* Needed to fix the active element appearing smaller than usual*/
-    =======transition: 0.5s;
-  =======transition: background-color 0.2s, font-weight 0.5s, font-size 0.5s;
-  line-height: 20px;
-  >>>>>>>7b455e652ba68ec04c6d60b096d6037dd0c7c98e background-color: navy;
-  min-width: 80px;
+  height: 100%;
+
   /* Needed to fix the active element appearing smaller than usual*/
-  >>>>>>>d1ed1b58b5199ea2cd980072a46c789ae7ff86d4
+
 }
 
 .top-navbar a:hover {
-  background-color: rgb(9, 6, 54);
-  font-weight: bold;
-  font-size: 18px;
+  /* font-weight: bold; */
+  background-color: rgb(135, 135, 248);
 }
 
 .top-navbar .active:hover {
-  background-color: #04AA6D;
+  background-color: rgb(66, 26, 176);
 }
 
 .top-navbar .active {
-  background-color: #04AA6D;
+  background-color: rgb(66, 26, 176);
 }
 
 
@@ -95,7 +182,14 @@ ul li {
 
 
 
-/*Home page title*/
+/* hero section */
+
+.hero-section {
+  background: linear-gradient(200.00deg,navy 70%, rgb(118, 26, 176) 100%);
+  color:white;
+  padding-top: 84px;
+  padding-bottom: 84px;
+}
 
 .title {
   justify-content: space-between;
@@ -110,6 +204,7 @@ ul li {
   flex-direction: column;
   margin-top: 0px;
   margin-bottom: 0px;
+
 
 }
 
@@ -144,16 +239,7 @@ ul li {
   line-height: 55px;
 }
 
-.titlebox {
-  /* Flex box is used in order to ensure dynamic resizing. */
-  display: flex;
-  /* The title is centered horizontally.  and each of its component are on top of each other*/
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
+
 
 .titlebox {
   /* Flex box is used in order to ensure dynamic resizing. */
@@ -164,21 +250,30 @@ ul li {
   justify-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
-
+  margin: 30px;
 }
 
 #push {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 #push:hover {
-  color: orangered;
+  color: rgb(63, 122, 210);
+
 
 }
 
 
+
 /* Review section */
+/* Review section */
+
+.review-section {
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 #review-stars {
   margin: auto;
@@ -249,11 +344,7 @@ ul li {
   }
 }
 
-body {
-  margin: 0;
-  background-color: navy;
-  font-family: 'Montserrat', sans-serif;
-}
+
 
 /* FOOTER*/
 .contact-form input,
@@ -335,38 +426,8 @@ body {
   line-height: 55px;
 }
 
-.titlebox {
-  /* Flex box is used in order to ensure dynamic resizing. */
-  display: flex;
-  /* The title is centered horizontally.  and each of its component are on top of each other*/
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
 
-.titlebox {
-  /* Flex box is used in order to ensure dynamic resizing. */
-  display: flex;
-  /* The title is centered horizontally.  and each of its component are on top of each other*/
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
 
-}
-
-#push {
-  text-decoration: none;
-  color: black;
-}
-
-#push:hover {
-  color: orangered;
-
-}
 
 body.pricing {
   background: #f7f7ff;
@@ -533,87 +594,3 @@ header.pricing {
 
 }
 
-@media (max-width: 280px) {
-  ul {
-    margin: 1rem;
-
-  }
-
-  h1 {
-    font-size: 1.2rem;
-  }
-
-  .tg {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 80px;
-  }
-
-  .plans {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .pl {
-    transform: scale(0.8);
-    margin-bottom: 1rem;
-  }
-
-  .plans .advanced {
-    transform: scale(0.8);
-  }
-}
-
-
-
-
-@media (min-width:320px) and (max-width:414px) {
-  .plans {
-    display: flex;
-    flex-direction: column;
-  }
-
-
-  .pl {
-    margin-bottom: 1rem;
-  }
-
-  .pl .advanced {
-    transform: scale(1);
-  }
-
-}
-
-@media (min-width:414px) and (max-width:768px) {
-  .pl {
-    margin-bottom: bottom 1rem;
-    margin-right: 1rem;
-  }
-
-  .plans .advanced {
-    transform: scale(1);
-  }
-}
-
-@media (min-width:768px) and (max-width:1046px) {
-  .plans {
-    display: flex;
-    flex-wrap: wrap;
-
-
-  }
-
-  .pl {
-    margin-bottom: 1rem;
-    margin-right: 1rem;
-
-
-  }
-
-  .plans .advanced {
-    transform: scale(1);
-  }
-}
