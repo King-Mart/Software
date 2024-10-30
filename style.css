@@ -169,6 +169,8 @@ body {
 
 .top-navbar .active {
   background-color: rgb(66, 26, 176);
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
 }
 
 
