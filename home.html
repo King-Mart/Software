@@ -51,13 +51,15 @@ and the animation doesnt work on pages that cant scroll
                             in your pocket
                         </span>
                     </span>
+                    <p class="catchline">Track workouts. Optimize performance. Achieve goals.</p>
                 </h1>
+
             </div>
+
+            <img id="mockup" src="mockups\Mock Up (2)-left.png" alt="Mockup">
+
         </div>
-        <p>Track workouts. Optimize performance. Achieve goals.</p>
-        <p>
-            Introducing Push, the cutting-edge fitness tracking app that enhances your workout experience. Using advanced sensors, Push accurately tracks your movements and repetitions, offering real-time feedback to optimize performance. Perfect for weightlifting and high-intensity training, it keeps you focused on your fitness goals and ensures every rep counts. With a user-friendly interface and insightful analytics, Push empowers you to push your limits and achieve your best results. 
-        </p>
+
 </section>
 
 
@@ -86,23 +88,28 @@ and the animation doesnt work on pages that cant scroll
     </div>
 </section>
 <script src="./main.js"></script>
-</body>
 
 <footer>
-    <p>Contact us</p>
-    <p>Help Center</p> <!-- Might create a help center page that you can send questions and messages through -->
-    <p>613-000-0000</p>
-    <p><a href="faq.html">FAQ</a></p>
-    <p>push@pushfitness.ca</p>
-    <h6> Developer section</h6>
-    <p>Team 7</p>
-    <!--#include file="footer.html"-->
-</footer>
-<form>
-    <label for="newName">Name:</label>
-    <input type="text" id="newName" name="newName"><br><br>
-    <button type="button" onclick="change_name()">Submit</button>
-</form>
-<p><button>start today!</button></p>
+    <div class="footer-content">
+      <h2>Contact Us</h2>
+      <form action="#" method="post" class="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+    <p class="footer-note">&copy; 2024 Your Company Name. All rights reserved.</p>
+  </footer>
+  
+  </body>
 </html>
-<!-- PS, never add your API key on the github version -->
