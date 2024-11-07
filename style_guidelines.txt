@@ -1,16 +1,12 @@
 
 Overall colour theme:
-    Gold = goldenrod #DAA520 
-        -----> not using this right now in guideline, but can use if you want to wherever you see fit and then add it to the guideline where it was used
     Purple
-    Red = barnred 780000
     White = white #FFFFFF
     Black
-    Blue = navy
+    Navy
     Background colours: 
-        white = whitesmoke
-        white
-        blue = navy
+        White
+        Navy
 
 Layout:
     FLexible layout, going for a vertical flow
@@ -21,32 +17,14 @@ Layout:
 Header (navigation bar):
     Background colour: navy
     Text colour: white
-    When page selected, font style of the page is underlined with white colour
+    When hovering colour changes to light purple: rgb(135, 135, 248)
+    When selected (on that page), colour is dark purple: rgb(66, 26, 176)
     Font style: bold
-    Two versions:
-        Still deciding between the two versions. 
-        Version 1:
-            Home, Features, Plans, Start today
-            Aligned to the left
-            When hovering colour changes to light purple: rgb(135, 135, 248)
-            When selected (on that page), colour is dark purple: rgb(66, 26, 176)
-            Font style: bold
-        Version 2:
-            About Us, FAQ
-            Centered
-            Underlined text on the page selected
-            Nothing when hovering
 
 Footer:
-    Multiple versions still in progress.
-    Version 1:    
-        Centered
-        background colour: navy 
-        font colour: white
-    Version 2: 
-        aligned to the left
-        background colour: white
-        font colour: black
+    Background colour: Navy
+    Text colour: white
+    Referenced.
 
 Images:
     Images are not yet ready. Still looking and working on those as our product gets more developed
@@ -59,7 +37,7 @@ Images:
         Logo will be put in the about us page
         Logo will be put at the top in the header that when clicked, it will lead to the home page
     Demos:
-        Screenshots and mockups of our product available on the about us, features, and start today pages
+        Screenshots and mockups of our product available on the home, about us, features, and start today pages
 
 
 Reviews:
@@ -73,13 +51,13 @@ Special:
     When clicked, it leads to the Start today page
 
 Colour gradients:
+    Navy-Purple
     Home page
     Plans page
 
 Text colour:
     Regular text on pages = contrasting to the background -> black/white
     Text on background images: avoided if not use contrasting background to make it readable
-
 
 Fonts:
     Font name: 
@@ -93,3 +71,13 @@ Fonts:
         Regular text will have no style (no bold, underline, or italics)
         Links will be underlined
         Important information to be emphasized will be italicized or underlined    
+
+
+OLD:
+
+Nav bar Version 2:
+    About Us, FAQ
+    Centered
+    Underlined text on the page selected
+    Nothing when hovering
+    Name under
