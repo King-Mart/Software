@@ -45,6 +45,7 @@ function updateCircles() {
 init(); // Call the init function to start the slider
 
 
+<<<<<<< HEAD
 
 // Define pricing for each plan
 const prices = {
@@ -73,6 +74,8 @@ checkbox.addEventListener("change", updatePrices);
 
 // Initialize with annual prices
 updatePrices();
+=======
+>>>>>>> 31dfc50782c5195cf4be25d8384f584f4b5d9c09
 
 
 
