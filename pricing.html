@@ -18,73 +18,82 @@
         </ul>
     </nav>
 </head>
+
+<html lang="en">
+
+
 <body class="pricing">
 
-<header class="pricing">
-    <h1> Our Plans</h1>
-    <div class="tg">
-        <label> Annually</label>
-        <div class="tg-btn">
-            <!-- errors with form element according to VSCode-->
-            <input type="checkbox" id="checkbox" class="checkbox" />
-            <label for="checkbox" class="sub" id="sub">
-                <div class="circle"></div>
-            </label>
+    <header class="pricing">
+        <h1> Our Plans</h1>
+
+        <div class="tg">
+            <label for="checkbox">Annually</label>
+
+            <div class="tg-btn">
+                <input type="checkbox" id="checkbox" class="checkbox">
+                <label for="checkbox" class="sub">
+                    <div class="circle"></div>
+                </label>
+            </div>
+            <label for="checkbox">Monthly</label>
         </div>
 
-        <label> Monthly</label>
+
+
+
+
+    </header>
+
+    <div class="plans">
+
+        <div class=" pl same">
+            <ul class="pg">
+                <li class="plan"> Basic Plan</li>
+                <li class="price" id="basic">&dollar;99.99 </li>
+                <li class="bottom">Standard activity tracking (steps, distance, calories)</li>
+                <li class="bottom">Connect with others through community support </li>
+                <li class="bottom">Detailed reports and progress charts</li>
+                <li class="bottom">Basic app integration </li>
+                <li>
+                    <button class="btn">Start your 30-day free trial now</button>
+                </li>
+            </ul>
+        </div>
+        <div class="pl advanced">
+
+            <ul class="pg">
+                <li class="plan"> Advanced Plan</li>
+                <li class="price" id="advanced">&dollar;199.99 </li>
+                <li class="bottom">All Basic Plan features +</li>
+                <li class="bottom">Personalized workout plans </li>
+                <li class="bottom">Advanced health metrics (stress levels, VO2 max, etc.)</li>
+                <li class="bottom">Exclusive fitness challenges </li>
+
+                <li>
+                    <button class="btn advanced-btn">Start your 30-day free trial now</button>
+                </li>
+            </ul>
+        </div>
+        <div class="pl same">
+
+            <ul class="pg">
+                <li class="plan"> Pro Plan</li>
+                <li class="price" id="pro">&dollar;299.99 </li>
+                <li class="bottom">All Advanced Plan features +</li>
+                <li class="bottom">Access to the Virtual Coach's Expertise </li>
+                <li class="bottom">Real-time perfomance feedback</li>
+                <li class="bottom">Advanced health insights (hydration, recovery times) </li>
+                <li class="bottom">Integration with smart home devices </li>
+                <li class="bottom"> Personalized Nutrition Guidance </li>
+                <li>
+                    <button class="btn">Start your 30-day free trial now</button>
+                </li>
+            </ul>
+        </div>
 
     </div>
-
-</header>
-
-<div class="plans">
-    <div class=" pl same">
-        <ul class="pg">
-            <li class="plan"> Basic Plan</li>
-            <li class="price" id="basic">&dollar;99.99 </li>
-            <li class="bottom">Standard activity tracking (steps, distance, calories)</li>
-            <li class="bottom">Heart rate monitor </li>
-            <li class="bottom">Sleep analysis</li>
-            <li class="bottom">Basic app integration </li>
-            <li>
-                <button class="btn">Start your 30-day free trial now</button>
-            </li>
-        </ul>
-    </div>
-    <div class="pl advanced">
-
-        <ul class="pg">
-            <li class="plan"> Advanced Plan</li>
-            <li class="price" id="advanced">&dollar;199.99 </li>
-            <li class="bottom">All Basic Plan features +</li>
-            <li class="bottom">GPS tracking </li>
-            <li class="bottom">Advanced health metrics (stress levels, VO2 max, etc.)</li>
-            <li class="bottom">Customizable workouts </li>
-            <li>
-                <button class="btn advanced-btn">Start your 30-day free trial now</button>
-            </li>
-        </ul>
-    </div>
-    <div class="pl same">
-
-        <ul class="pg">
-            <li class="plan"> Pro Plan</li>
-            <li class="price" id="pro">&dollar;299.99 </li>
-            <li class="bottom">All Advanced Plan features +</li>
-            <li class="bottom">AI-powered fitness recommendations </li>
-            <li class="bottom">Real-time perfomance feedback</li>
-            <li class="bottom">Advanced health insights (hydration, recovery times) </li>
-            <li class="bottom">Integration with smart home devices </li>
-            <li class="bottom"> Exclusive fitness challenges </li>
-            <li>
-                <button class="btn">Start your 30-day free trial now</button>
-            </li>
-        </ul>
-    </div>
-
-</div>
-<script src="pricing.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
