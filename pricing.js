@@ -3,6 +3,7 @@ const checkbox = document.getElementById('checkbox');
 const pro = document.getElementById('pro');
 const advanced = document.getElementById('advanced');
 const basic = document.getElementById('basic');
+//switch between annual and monthly prices in pricing page when user clicks on the checkbox
 
 
 
