@@ -1,30 +1,18 @@
 
 
-// Define pricing for each plan
-const prices = {
-    basic: { annual: 99.99, monthly: 9.99 },
-    advanced: { annual: 199.99, monthly: 19.99 },
-    pro: { annual: 299.99, monthly: 29.99 }
-};
+//switch between annual and monthly prices in pricing page when user clicks on the checkbox
+const checkbox = document.getElementById('checkbox');
+const pro = document.getElementById('pro');
+const advanced = document.getElementById('advanced');
+const basic = document.getElementById('basic');
+//switch between annual and monthly prices in pricing page when user clicks on the checkbox
 
-// Select elements by their IDs for easy access
-const basicPrice = document.getElementById("basic");
-const advancedPrice = document.getElementById("advanced");
-const proPrice = document.getElementById("pro");
-const checkbox = document.getElementById("checkbox");
 
-// Function to update prices based on checkbox state
-const updatePrices = () => {
-    const billingCycle = checkbox.checked ? "monthly" : "annual";
 
-    basicPrice.innerHTML = `&dollar;${prices.basic[billingCycle].toFixed(2)}`;
-    advancedPrice.innerHTML = `&dollar;${prices.advanced[billingCycle].toFixed(2)}`;
-    proPrice.innerHTML = `&dollar;${prices.pro[billingCycle].toFixed(2)}`;
-};
+checkbox.addEventListener('click', () => {
+    basic.textContent = basic.textContent === '$9.99' ? '$99.99' : '$9.99';
+    advanced.textContent = advanced.textContent === '$14.99' ? '$199.99' : '$14.99';
+    pro.textContent = pro.textContent === '$24.99' ? '$299.99' : '$24.99';
+});
 
-// Add event listener to checkbox to update prices on toggle
-checkbox.addEventListener("change", updatePrices);
-
-// Initialize with annual prices
-updatePrices();
 
