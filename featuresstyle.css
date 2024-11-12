@@ -129,15 +129,6 @@ header h1 {
     color: #555;
 }
 
-/* Footer */
-footer {
-    background-color: #1b1b3a;
-    color: white;
-    padding: 7rem 18rem;
-    text-align: right;
-}
-
-
 /* Responsive Design */
 @media (max-width: 768px) {
     .top-navbar ul {
@@ -146,6 +137,14 @@ footer {
     header h1 {
         font-size: 2rem;
     }
+}
+
+/* Footer */
+footer {
+    background-color: #1b1b3a;
+    color: white;
+    padding: 7rem 18rem;
+    text-align: right;
 }
 
 #main {

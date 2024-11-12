@@ -625,13 +625,90 @@ header.pricing {
   border-bottom: 2px solid hsl(240, 8%, 85%, 0.582);
 }
 
-
-
 .plan {
   font-size: 1.1rem;
-
-
-
-
 }
+
+
+/* Footer */
+footer {
+  background-color: #1b1b3a;
+  color: white;
+  padding: 7rem 18rem;
+  text-align: right;
+  font-family: font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#main {
+  display: flex;
+}
+
+.footer-text {
+  margin-bottom: 9px;
+}
+
+.feature-footer {
+  display: inline-block;
+  text-align: left;
+  width: 55%
+}
+
+.subtitle {
+  width: 15%;
+}
+
+#products, #resources, #company {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 9px 0px;
+}
+
+#logo {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#fitness {
+  padding: 65px 0px 15px 300px;
+  font-size: 17px;
+}
+
+#start-today {
+  background-color: white;
+  text-align: left;
+  padding: 20px 70px;
+  border: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  border-radius: 40px;
+}
+
+#start-today:hover {
+  background-color: #e3e8fd;
+  transition-duration: 0.5s;
+}
+
+#moto {
+  padding: 80px 0px 25px 0px;
+  font-size: 20px;
+}
+
+#socials {
+  padding-top: 20px;
+  gap: 25px;
+  justify-content: center;
+  display: flex;
+}
+
+#arr {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
 
